@@ -1,0 +1,22 @@
+{
+    "name": "tangwei/tool",
+    "type": "library",
+    "description": "tool for PHP",
+    "keywords": ["tool"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tangwei"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {"Ttool\\": "src"},
+        "files": ["src/functions.php"]
+    }
+}
